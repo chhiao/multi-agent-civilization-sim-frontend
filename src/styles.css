@@ -1,0 +1,20 @@
+:root {
+  font-family: system-ui, "Noto Sans TC", sans-serif;
+  color: #1f2933;
+  background: #f7f8fa;
+}
+main { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+header { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+.grid { display: grid; grid-template-columns: 1fr 2fr; gap: 1.5rem; }
+table { border-collapse: collapse; width: 100%; font-size: 0.85rem; background: white; }
+th, td { border: 1px solid #e1e4e8; padding: 0.25rem 0.5rem; text-align: left; }
+th { background: #eef1f4; }
+tr.dead { color: #9aa5b1; text-decoration: line-through; }
+.events { list-style: none; padding: 0; margin: 0; max-height: 240px; overflow-y: auto; font-size: 0.8rem; background: white; border: 1px solid #e1e4e8; }
+.events li { padding: 0.15rem 0.5rem; }
+.events li.failed { color: #b42318; }
+.tick { color: #6b7280; font-family: monospace; }
+.error { color: #b42318; }
+.file { font-size: 0.85rem; margin-left: auto; }
